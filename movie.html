@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/movie.css">
+  <script src="./data.js" defer></script>
+  <script src="./movie.js" defer></script>
+  <title>Movie</title>
+</head>
+<body>
+  <header class="movie-header">
+    <a class="movie-back" href="./index.html">← Back</a>
+    <div class="movie-header__brand">
+      <img src="./images/icons/logo.png" alt="logo" class="logo">
+      <span>Filmagent</span>
+    </div>
+  </header>
+  <main class="movie-page">
+    <section class="movie-hero">
+      <div class="movie-hero__poster-wrap">
+        <img id="moviePoster" class="movie-hero__poster" alt="Movie poster">
+      </div>
+      <div class="movie-hero__info">
+        <h1 id="movieTitle" class="movie-hero__title"></h1>
+        <div class="movie-hero__meta">
+          <span id="movieYear" class="pill"></span>
+          <span id="movieDuration" class="pill"></span>
+          <span class="pill pill--rating"><img src="./images/icons/Star 1.png" alt=""> <span id="movieRating"></span></span>
+          <span class="pill pill--hd">
+            <img id="movieHdIcon" class="pill__icon" alt="HD">
+            HD
+          </span>
+        </div>
+        <p id="movieDesc" class="movie-hero__desc"></p>
+        <div class="movie-hero__actions">
+          <a class="btn btn--primary" href="./index.html">Home</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

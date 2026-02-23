@@ -1,0 +1,19 @@
+:root{
+    /*color  */
+    --color-green:#CCFF00;
+
+    /* bdr */
+    --btn-bd-radius:24px;
+
+    /* clamp */
+    --font-size-logo: clamp(1.25rem, 2vw + 1rem, 1.875rem); /* 20px -> 30px */
+    --font-size-h1: clamp(2.25rem, 5vw + 1rem, 4rem); 
+    --font-size-nav: clamp(0.875rem, 0.8vw + 0.4rem, 1.135rem);
+    --font-size-hero-p: clamp(1.125rem, 1.5vw + 0.5rem, 1.625rem);
+
+    /* fonts */
+    --font-Electrolize: 'Electrolize';
+    --font-Homenaje: 'Homenaje';
+    --font-IMFellFrench: 'IMFellFrench';
+    --font-Imprima: 'Imprima';
+}
