@@ -1,8 +1,8 @@
-# 🎬 Movie Website (Filmagent)
+# Movie Website (Filmagent)
 
 Interactive movie website built with **HTML, CSS and JavaScript**.
 
-## 🚀 Features
+## Features
 
 * Dynamic movie cards generated with JavaScript
 * Click on movie → opens individual movie page
@@ -10,22 +10,17 @@ Interactive movie website built with **HTML, CSS and JavaScript**.
 * Hover effects and modern UI
 * Clean project structure
 
-## 🛠 Technologies
+## Technologies
 
 * HTML5
 * CSS3
 * JavaScript (DOM)
 
-## 🌍 Live Demo
+## Live Demo
 
 https://arsen-kazaryan.github.io/movie-website/
 
-## 📌 About Project
+## About Project
 
 This project was created to practice frontend development and improve JavaScript skills.
-It demonstrates working with DOM, dynamic content and page navigation.
-
-## 👨‍💻 Author
-
-Arsen Kazaryan
-Junior Frontend Developer
+It demonstrates working with DOM, dynamic content and page.
